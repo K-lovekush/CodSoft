@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height:700px;
+    width: 100%;
+    background-image: url(projcetbeg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+/* background: linear-gradient(30deg ,rgba(0,0,0,0.945),rgba(35, 0, 80, 0.951) ,rgba(0, 0, 0, 0.945) ); */
+}
+.navbar{
+    height: 50px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+    padding-top: 10px;
+}
+.navf2 a:hover{
+    color:white;
+}
+.adiv{
+    height: fit-content;
+    width: fit-content;
+
+}
+.adiv:hover{
+    color: orange;
+    border: 2px solid  black;
+    border-radius: 2px ;
+    background-color: black;
+    transition:2s ease-in-out ;
+}
+.navf1{
+    margin-left: 10%;
+}
+.navf1 h1{
+    height: inherit;
+
+    font-size: 20px;
+    color: black;
+    font-size: 50px;
+}
+.navf2{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.navf2 .adiv a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.Home{
+    position: absolute;
+    height: fit-content;
+    width: 600px;
+    top: 20%;
+    left: 30%;
+}
+.Home h1{
+    font-size: 80px;
+}
+.Home p{
+    font-size: 20px;
+}
+
+
+.btn{
+    background-color: orangered;
+    width: 100px;
+    color: white;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn a{
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: orangered;
+}
+.login input{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+}
+
+.icon{
+    height: 20px;
+  cursor: pointer;
+}
+.serv{
+  height: 100vh;
+  width: 100%;
+  border: 2px solid black;
+  background: linear-gradient(30deg ,rgba(0,0,0,0.945),rgba(35, 0, 80, 0.951) ,rgba(0, 0, 0, 0.945) );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.ser{
+   width: 300px;
+   height:300px;
+   border: 2px solid pink;
+   color: white;
+   text-align: center;
+   border-radius: 10px;
+   margin: 30px;
+}
+.ser h1{
+    color: gold;
+}
+/* .text{
+    margin-top: 35px;
+} */
+.serweoff{
+   position: absolute;
+   left:50%;
+    color: white;
+}
+.ser:hover{
+    box-shadow:  -10px -10px 10px rgb(211, 189, 24),10px 10px 10px rgb(211, 189, 24);
+    transition-duration: 1s;
+}
+.photo{
+    height:175px;
+    width:285px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.btn2{
+    width: 100px;
+    background-color: orangered;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.about{
+    height: 600px;
+    width: 100%;
+    border: 2px solid black;
+    background: linear-gradient(30deg ,rgba(0,0,0,0.945),rgba(35, 0, 80, 0.951) ,rgba(0, 0, 0, 0.945) );
+    display: flex;
+    justify-content: space-between;
+}
+.aboutcontent{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+   margin-top: 40px;
+    left: 10%;
+    color: white;
+    text-align: center;
+}
+.im{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+  left: 400px;
+bottom: 80px;
+
+}
+.im img{
+    height: 600px;
+}
+.contect{
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(30deg gray,pink );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.contect{
+    background-color: #262626;
+    color: white;
+}
