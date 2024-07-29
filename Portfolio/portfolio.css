@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+.body{
+    background-color: #7a5622;
+}
+.home{
+    height: 90vh;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-left:10% ;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(38,38,38,255);
+
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2 .nav{
+    display: inline-block;
+    margin: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(211, 24, 205);
+}
+.nav a:hover{
+    color: gold;
+}
+.nav button{
+    cursor: pointer;
+}
+.hocont{
+    height: 300px;
+    width: 500px;
+    border: 2px solid yellow;
+    border-top-right-radius: 150px;
+    border-end-end-radius: 150px;
+    margin-top: 120px;
+    background-color: rgba(38,38,38,255);
+    text-align: center;
+    margin-left: 10px;
+
+}
+.socialicon{
+    height: 400px;
+    width: 100px;
+    position: absolute;
+    top: 190px;
+    right: 150px;
+}
+.socialicon a img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.nav1 h1{
+    color: gold;
+}
+#iam{
+    color: white;
+    font-size: 40px;
+}
+#name{
+    color: white;
+    font-size: 40px;
+}
+.hocont h3{
+    color: white;
+}
+.photo{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+     top:25%;
+    right:20%;
+    box-shadow: -10px -10px 10px rgb(211, 24, 205),10px 10px 10px rgb(211, 189, 24);
+ }
+ .photo img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+ }
+ .hocont button{
+    height:50px;
+    width: 100px;
+    border-radius:50%;
+    background-color: orange;
+ }
+.Skil{
+    height: 90vh;
+    width: 80%;
+    margin-left:10% ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(38,38,38,255);
+}
+.ski{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    color:  rgb(211, 24, 205);
+}
+.ski img{
+   height: 150px;
+}
+.ski:hover{
+    box-shadow:  10px 10px  10px rgb(211, 189, 24),
+                  -10px -10px 10px rgb(211, 189, 24);
+    transition-duration: 1s;
+}
+.h{
+    position: absolute;
+    color: rgb(211, 24, 205);
+}
+.pro{
+    height: 90vh;
+    width: 80%;
+    margin-left:10% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(38,38,38,255);
+}
+.myedu h1{
+    position: absolute;
+    left: 45%;
+    color: rgb(211, 24, 205);
+}
+.proside{
+    margin-top:15%;
+    height: 200px;
+    width: 300px;
+    border:2px solid purple;
+}
+.prospoti{
+    margin-top:10%;
+    height: 300px;
+    width: 400px;
+    border:2px solid purple;
+}
+.other{
+    margin-top:15%;
+    height: 200px;
+    width: 300px;
+    border:2px solid purple;
+}
+.proside img{
+    height: 200px;
+    width: 300px;
+}
+.prospoti img{
+    height:300px;
+    width: 400px;
+}
+.other img{
+    height: 200px;
+    width: 300px;
+}
+.proside:hover{
+    box-shadow:  10px 10px  10px rgb(211, 189, 24),
+    -10px -10px 10px rgb(211, 189, 24);
+transition-duration: 1s;
+}
+.prospoti:hover{
+    box-shadow:  10px 10px  10px rgb(211, 189, 24),
+    -10px -10px 10px rgb(211, 189, 24);
+transition-duration: 1s;
+}
+.other:hover{
+    box-shadow:  10px 10px  10px rgb(211, 189, 24),
+    -10px -10px 10px rgb(211, 189, 24);
+transition-duration: 1s;
+}
+.dot{
+    height: 50px;
+    width: 400px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.dot1{
+    height:50px;
+    width: 50px;
+   border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+#dotsecond{
+    background-color: gold;
+}
+.resume{
+    height: 90vh;
+    width: 80%;
+    margin-left:10% ;
+    background-color: rgba(38,38,38,255);
+display: flex;
+}
+.cont{
+    height: 400px;
+    width: 500px;
+    border: 2px solid yellow;
+    color: white;
+}
+.im img{
+    height: 300px;
+    width:400px;
+   margin-left: 500px;
+}
+
+.contact{
+    height: 50vh;
+    width: 80%;
+    margin-left:10% ;
+    background-color: rgba(38,38,38,255);
+    text-align:start;
+    color: white;
+}
+.Contact{
+    text-align: center;
+}
+.contact a{
+    text-decoration: none;
+}
+.copyright{
+    height: 50vh;
+    width: 80%;
+    margin-left:10% ;
+    background-color: rgba(38,38,38,255);
+    color: white;
+}
+.copyright ul,h1{
+    margin-left: 35px;
+    line-height: 40px;
+    
+}
